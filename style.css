@@ -1,0 +1,51 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.info-container {
+    background-color: burlywood;
+}
+
+.main-container {
+    background-color: blue;
+    height: 5cm;
+}
+
+.algoritmo-container {
+    background-color: brown;
+}
+
+.title {
+    text-align: center;
+}
+
+.input-function-container {
+    padding-bottom: 1.5%;
+}
+
+.input-label {
+    font-weight: bold;
+}
+
+.input-value {
+    border-radius: 5px;
+    padding: 3px;
+    height: 30px;
+}
+
+.input-btn {
+    border-radius: 5px;
+    padding: 5px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.secondary-container {
+    background-color: blueviolet;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

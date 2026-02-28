@@ -8,16 +8,39 @@
     <title>Calculadora Newton Raphson</title>
 </head>
 <body>
-    
+    <div class="info-container">
+        <h1 class="title">Método de Newton-Raphson</h1>
+
+        <div class="description-container">
+            <p class="info">Aqui la descripción del método</p>
+
+            <img src="assets\Newton-Raphson-Method.png" alt="Newton Raphson Method Graph" width="300" >
+        </div>
+    </div>
+
+    <div class="algoritmo-container">
+        <h2 class="subtitle">Algoritmo</h2>
+
+        <p class="info">Aqui los pasos del algoritmo</p>
+        <ol class="algoritmo">
+            <li>paso n</li>
+        </ol>
+    </div>
+
     <div class="main-container">
-        <h1 class="title">Calculadora Newton Raphson</h1>
+        <h2 class="title">Calculadora Newton Raphson</h2>
 
         <div class="input-container">
-            <label for="input-function">Ingresa una función f(x):</label>
-            <input type="text" class="function" placeholder="3x^2-e^x">
+            <div class="input-function-container">
+                <label for="input-function" class="input-label">Función f(x):</label>
+                <input type="text" class="input-value" placeholder="3x^2-e^x">
+            </div>
 
-            <label for="input-value">Valor inicial:</label>
-            <input type="number" class="inicial-value" placeholder="1">
+            <label for="input-value" class="input-label">Valor inicial:</label>
+            <input type="number" class="input-value" placeholder="1">
+
+            <label for="input-error" class="input-label">Error aproximado:</label>
+            <input type="number" class="input-value" placeholder="0.05">
 
             <button class="input-btn" onclick=pass>Calcular raíz</button>
         </div>
