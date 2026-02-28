@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/14.8.1/math.min.js"></script> <!-- Math library-->
+    <title>Calculadora Newton Raphson</title>
+</head>
+<body>
+    
+    <div class="main-container">
+        <h1 class="title">Calculadora Newton Raphson</h1>
+
+        <div class="input-container">
+            <label for="input-function">Ingresa una función f(x):</label>
+            <input type="text" class="function" placeholder="3x^2-e^x">
+
+            <label for="input-value">Valor inicial:</label>
+            <input type="number" class="inicial-value" placeholder="1">
+
+            <button class="input-btn" onclick=pass>Calcular raíz</button>
+        </div>
+    </div>
+
+    <div class="secondary-container">     
+        <div class="derivadas-container">
+            <h3 class="subtitle">Derivada f'(x):</h3>
+            <p class="derivative">Aqui va la derivada</p>
+        </div>
+
+        <div class="iterations-container">
+            <h3 class="subtitle">Iteraciones</h3>
+            <ol class="iterations">
+                <li>Aqui van las iteraciones</li>
+            </ol>
+        </div>
+
+        <div class="result-container">
+            <h3 class="subtitle">Raíz:</h3>
+            <p class="result">Resultado</p>
+        </div>
+    </div>
+
+</body>
+</html>
